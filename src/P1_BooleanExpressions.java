@@ -1,36 +1,27 @@
 /*
 	ISYS 320
-	Name(s):
-	Date: 
+	Name(s):Clayton Bruce
+	Date: 4/16/2018
 */
 
 /*
  Your expression predictions:
+ 1. T
+ 2. T
+ 3. F
+ 4.T
  
- 1.
- 2.
- 3. 
- 4.
- 
- 5.
- 6.
- 7.
- 8.
+ 5. T
+ 6.F
+ 7.T
+ 8.T
    
  */
 
 /*
  Were you correct? Explain if you were not (what did you learn?)
  
- 1.
- 2.
- 3. 
- 4.
- 
- 5.
- 6.
- 7.
- 8.
+ I was correct, through careful examination it is easy to understand the conditions.
 
  */
 public class P1_BooleanExpressions {
@@ -41,7 +32,15 @@ public class P1_BooleanExpressions {
 		int z = 32; 
 		boolean b = false; 
 		
-		System.out.println("REPLACE THIS STRING WITH YOUR BOOLEAN EXPRESSION");
+		System.out.println(!b);
+		System.out.println(b || true );
+		System.out.println((x > y) && (y > z) );
+		System.out.println((x == y) || (x <= z) );
+		System.out.println(!(x % 2 == 0) );
+		System.out.println(b && !b );
+		System.out.println(b || !b);
+		System.out.println((x < y) == b);
+
 	}
 
 }
